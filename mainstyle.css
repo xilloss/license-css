@@ -1,3 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Tektur:wght@400..900&display=swap');
+
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/xilloss/license-css/refs/heads/main/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+   
+}
+
+ ::selection {
+        color: rgb(255, 0, 0);
+        background-color: #94949465;
+    }
+
+.container {
+    background-color: rgb(61, 61, 61);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.13);
+}
+
+.title {
+    font-family: 'Tektur', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title span {
+    color: rgb(255, 0, 0);
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.date {
+font-family: 'Tektur', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff88;
+}
+
+.date span {
+    color: rgba(255, 0, 0, 0.548);
+}
+
+.sec-title {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    color: #949494;
+    font-family: 'Tektur', sans-serif;
+}
+
+.info p {
+    font-family: 'Science Gothic', sans-serif;
+    margin: 15px 0;
+    text-indent: 10px;
+    line-height: 1.7;
+    color: #ffffffcb;
+}
+
+.info a {
+    color: red;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: #ffffff;
+}
+
+.info span {
+    color: rgb(255, 164, 164);
+    font-weight: bold;
+}
