@@ -12,18 +12,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
 
-   
+
+hr {
+    border: none;
+	box-shadow: 0 0 10px 2px rgb(255, 255, 255);
 }
 
  ::selection {
         color: rgb(255, 0, 0);
         background-color: #94949465;
-    }
+}
 
 .container {
     background-color: rgb(61, 61, 61);
-    border-radius: 15px;
+    border-radius: 25px;
     margin: 20px;
     padding: 30px;
     max-width: 1000px;
@@ -90,3 +94,4 @@ font-family: 'Tektur', sans-serif;
     color: rgb(255, 164, 164);
     font-weight: bold;
 }
+
